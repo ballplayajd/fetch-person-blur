@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C728BDE72D4AC63400714AD9 /* yolo11s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = C728BDE62D4AC63400714AD9 /* yolo11s.mlpackage */; };
+		C75D3FD52D4A943C0003AD34 /* FaceBlurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D3FD42D4A943C0003AD34 /* FaceBlurApp.swift */; };
+		C75D3FD72D4A943C0003AD34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D3FD62D4A943C0003AD34 /* ContentView.swift */; };
+		C75D3FD92D4A943E0003AD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75D3FD82D4A943E0003AD34 /* Assets.xcassets */; };
+		C75D3FDC2D4A943E0003AD34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75D3FDB2D4A943E0003AD34 /* Preview Assets.xcassets */; };
+		C75D3FE72D4A943E0003AD34 /* FaceBlurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D3FE62D4A943E0003AD34 /* FaceBlurTests.swift */; };
+		C75D3FF12D4A943E0003AD34 /* FaceBlurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D3FF02D4A943E0003AD34 /* FaceBlurUITests.swift */; };
+		C75D3FF32D4A943E0003AD34 /* FaceBlurUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D3FF22D4A943E0003AD34 /* FaceBlurUITestsLaunchTests.swift */; };
+		C7D1DC2A2D4AEE67001C8677 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1DC292D4AEE67001C8677 /* CameraManager.swift */; };
+		C7D1DC2C2D4AEED0001C8677 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1DC2B2D4AEED0001C8677 /* CameraView.swift */; };
+		C7D1DC2E2D4AF91D001C8677 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1DC2D2D4AF91D001C8677 /* Extensions.swift */; };
+		C7D1DC302D4B0752001C8677 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1DC2F2D4B0752001C8677 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75D3FE32D4A943E0003AD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75D3FC92D4A943C0003AD34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75D3FD02D4A943C0003AD34;
+			remoteInfo = FaceBlur;
+		};
+		C75D3FED2D4A943E0003AD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75D3FC92D4A943C0003AD34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75D3FD02D4A943C0003AD34;
+			remoteInfo = FaceBlur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C728BDE62D4AC63400714AD9 /* yolo11s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolo11s.mlpackage; sourceTree = "<group>"; };
+		C75D3FD12D4A943C0003AD34 /* FaceBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBlur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75D3FD42D4A943C0003AD34 /* FaceBlurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBlurApp.swift; sourceTree = "<group>"; };
+		C75D3FD62D4A943C0003AD34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C75D3FD82D4A943E0003AD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75D3FDB2D4A943E0003AD34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C75D3FDD2D4A943E0003AD34 /* FaceBlur.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FaceBlur.entitlements; sourceTree = "<group>"; };
+		C75D3FE22D4A943E0003AD34 /* FaceBlurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBlurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75D3FE62D4A943E0003AD34 /* FaceBlurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBlurTests.swift; sourceTree = "<group>"; };
+		C75D3FEC2D4A943E0003AD34 /* FaceBlurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBlurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75D3FF02D4A943E0003AD34 /* FaceBlurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBlurUITests.swift; sourceTree = "<group>"; };
+		C75D3FF22D4A943E0003AD34 /* FaceBlurUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBlurUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7D1DC292D4AEE67001C8677 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		C7D1DC2B2D4AEED0001C8677 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		C7D1DC2D2D4AF91D001C8677 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C7D1DC2F2D4B0752001C8677 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75D3FCE2D4A943C0003AD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D3FDF2D4A943E0003AD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D3FE92D4A943E0003AD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C728BDE52D4AC61100714AD9 /* Large Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C728BDE62D4AC63400714AD9 /* yolo11s.mlpackage */,
+			);
+			path = "Large Assets";
+			sourceTree = "<group>";
+		};
+		C75D3FC82D4A943C0003AD34 = {
+			isa = PBXGroup;
+			children = (
+				C75D3FD32D4A943C0003AD34 /* FaceBlur */,
+				C75D3FE52D4A943E0003AD34 /* FaceBlurTests */,
+				C75D3FEF2D4A943E0003AD34 /* FaceBlurUITests */,
+				C75D3FD22D4A943C0003AD34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75D3FD22D4A943C0003AD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75D3FD12D4A943C0003AD34 /* FaceBlur.app */,
+				C75D3FE22D4A943E0003AD34 /* FaceBlurTests.xctest */,
+				C75D3FEC2D4A943E0003AD34 /* FaceBlurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75D3FD32D4A943C0003AD34 /* FaceBlur */ = {
+			isa = PBXGroup;
+			children = (
+				C75D3FD42D4A943C0003AD34 /* FaceBlurApp.swift */,
+				C75D3FD62D4A943C0003AD34 /* ContentView.swift */,
+				C7D1DC2F2D4B0752001C8677 /* ViewModel.swift */,
+				C7D1DC2B2D4AEED0001C8677 /* CameraView.swift */,
+				C7D1DC292D4AEE67001C8677 /* CameraManager.swift */,
+				C7D1DC2D2D4AF91D001C8677 /* Extensions.swift */,
+				C728BDE52D4AC61100714AD9 /* Large Assets */,
+				C75D3FD82D4A943E0003AD34 /* Assets.xcassets */,
+				C75D3FDD2D4A943E0003AD34 /* FaceBlur.entitlements */,
+				C75D3FDA2D4A943E0003AD34 /* Preview Content */,
+			);
+			path = FaceBlur;
+			sourceTree = "<group>";
+		};
+		C75D3FDA2D4A943E0003AD34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C75D3FDB2D4A943E0003AD34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C75D3FE52D4A943E0003AD34 /* FaceBlurTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75D3FE62D4A943E0003AD34 /* FaceBlurTests.swift */,
+			);
+			path = FaceBlurTests;
+			sourceTree = "<group>";
+		};
+		C75D3FEF2D4A943E0003AD34 /* FaceBlurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C75D3FF02D4A943E0003AD34 /* FaceBlurUITests.swift */,
+				C75D3FF22D4A943E0003AD34 /* FaceBlurUITestsLaunchTests.swift */,
+			);
+			path = FaceBlurUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75D3FD02D4A943C0003AD34 /* FaceBlur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75D3FF62D4A943E0003AD34 /* Build configuration list for PBXNativeTarget "FaceBlur" */;
+			buildPhases = (
+				C75D3FCD2D4A943C0003AD34 /* Sources */,
+				C75D3FCE2D4A943C0003AD34 /* Frameworks */,
+				C75D3FCF2D4A943C0003AD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBlur;
+			productName = FaceBlur;
+			productReference = C75D3FD12D4A943C0003AD34 /* FaceBlur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C75D3FE12D4A943E0003AD34 /* FaceBlurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75D3FF92D4A943E0003AD34 /* Build configuration list for PBXNativeTarget "FaceBlurTests" */;
+			buildPhases = (
+				C75D3FDE2D4A943E0003AD34 /* Sources */,
+				C75D3FDF2D4A943E0003AD34 /* Frameworks */,
+				C75D3FE02D4A943E0003AD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75D3FE42D4A943E0003AD34 /* PBXTargetDependency */,
+			);
+			name = FaceBlurTests;
+			productName = FaceBlurTests;
+			productReference = C75D3FE22D4A943E0003AD34 /* FaceBlurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C75D3FEB2D4A943E0003AD34 /* FaceBlurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75D3FFC2D4A943E0003AD34 /* Build configuration list for PBXNativeTarget "FaceBlurUITests" */;
+			buildPhases = (
+				C75D3FE82D4A943E0003AD34 /* Sources */,
+				C75D3FE92D4A943E0003AD34 /* Frameworks */,
+				C75D3FEA2D4A943E0003AD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75D3FEE2D4A943E0003AD34 /* PBXTargetDependency */,
+			);
+			name = FaceBlurUITests;
+			productName = FaceBlurUITests;
+			productReference = C75D3FEC2D4A943E0003AD34 /* FaceBlurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75D3FC92D4A943C0003AD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C75D3FD02D4A943C0003AD34 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C75D3FE12D4A943E0003AD34 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C75D3FD02D4A943C0003AD34;
+					};
+					C75D3FEB2D4A943E0003AD34 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C75D3FD02D4A943C0003AD34;
+					};
+				};
+			};
+			buildConfigurationList = C75D3FCC2D4A943C0003AD34 /* Build configuration list for PBXProject "FaceBlur" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75D3FC82D4A943C0003AD34;
+			productRefGroup = C75D3FD22D4A943C0003AD34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75D3FD02D4A943C0003AD34 /* FaceBlur */,
+				C75D3FE12D4A943E0003AD34 /* FaceBlurTests */,
+				C75D3FEB2D4A943E0003AD34 /* FaceBlurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75D3FCF2D4A943C0003AD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D3FDC2D4A943E0003AD34 /* Preview Assets.xcassets in Resources */,
+				C75D3FD92D4A943E0003AD34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D3FE02D4A943E0003AD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D3FEA2D4A943E0003AD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75D3FCD2D4A943C0003AD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D1DC2E2D4AF91D001C8677 /* Extensions.swift in Sources */,
+				C75D3FD72D4A943C0003AD34 /* ContentView.swift in Sources */,
+				C728BDE72D4AC63400714AD9 /* yolo11s.mlpackage in Sources */,
+				C75D3FD52D4A943C0003AD34 /* FaceBlurApp.swift in Sources */,
+				C7D1DC2A2D4AEE67001C8677 /* CameraManager.swift in Sources */,
+				C7D1DC2C2D4AEED0001C8677 /* CameraView.swift in Sources */,
+				C7D1DC302D4B0752001C8677 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D3FDE2D4A943E0003AD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D3FE72D4A943E0003AD34 /* FaceBlurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D3FE82D4A943E0003AD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D3FF32D4A943E0003AD34 /* FaceBlurUITestsLaunchTests.swift in Sources */,
+				C75D3FF12D4A943E0003AD34 /* FaceBlurUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75D3FE42D4A943E0003AD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75D3FD02D4A943C0003AD34 /* FaceBlur */;
+			targetProxy = C75D3FE32D4A943E0003AD34 /* PBXContainerItemProxy */;
+		};
+		C75D3FEE2D4A943E0003AD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75D3FD02D4A943C0003AD34 /* FaceBlur */;
+			targetProxy = C75D3FED2D4A943E0003AD34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C75D3FF42D4A943E0003AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C75D3FF52D4A943E0003AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C75D3FF72D4A943E0003AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FaceBlur/FaceBlur.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FaceBlur/Preview Content\"";
+				DEVELOPMENT_TEAM = PXWYQG8W67;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to blur people";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FaceBlur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C75D3FF82D4A943E0003AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FaceBlur/FaceBlur.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FaceBlur/Preview Content\"";
+				DEVELOPMENT_TEAM = PXWYQG8W67;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to blur people";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FaceBlur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C75D3FFA2D4A943E0003AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWYQG8W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FaceBlurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBlur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceBlur";
+			};
+			name = Debug;
+		};
+		C75D3FFB2D4A943E0003AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWYQG8W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FaceBlurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBlur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceBlur";
+			};
+			name = Release;
+		};
+		C75D3FFD2D4A943E0003AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWYQG8W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FaceBlurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FaceBlur;
+			};
+			name = Debug;
+		};
+		C75D3FFE2D4A943E0003AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWYQG8W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FaceBlurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FaceBlur;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75D3FCC2D4A943C0003AD34 /* Build configuration list for PBXProject "FaceBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D3FF42D4A943E0003AD34 /* Debug */,
+				C75D3FF52D4A943E0003AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75D3FF62D4A943E0003AD34 /* Build configuration list for PBXNativeTarget "FaceBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D3FF72D4A943E0003AD34 /* Debug */,
+				C75D3FF82D4A943E0003AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75D3FF92D4A943E0003AD34 /* Build configuration list for PBXNativeTarget "FaceBlurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D3FFA2D4A943E0003AD34 /* Debug */,
+				C75D3FFB2D4A943E0003AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75D3FFC2D4A943E0003AD34 /* Build configuration list for PBXNativeTarget "FaceBlurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D3FFD2D4A943E0003AD34 /* Debug */,
+				C75D3FFE2D4A943E0003AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75D3FC92D4A943C0003AD34 /* Project object */;
+}
