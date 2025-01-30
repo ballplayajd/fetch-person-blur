@@ -18,6 +18,14 @@ This project consists of two main components:
 2. ML Model Training (`/ML Training`) 
    - YOLO model training and conversion scripts
    - CoreML model generation utilities
+   - Python environment setup:
+     ```bash
+     python -m venv env
+     source env/bin/activate  # On Unix/macOS
+     # or
+     .\env\Scripts\activate  # On Windows
+     pip install -r requirements.txt
+     ```
 
 ## Requirements
 
