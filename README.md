@@ -37,3 +37,12 @@ This project consists of two main components:
 ## Installation
 
 1. Clone the repository:
+2. Open /FaceBlur with Xcode
+3. Run the app
+
+## Usage
+
+1. Open the app
+2. Allow camera access
+3. Toggle blur effect
+4. Enjoy the app
